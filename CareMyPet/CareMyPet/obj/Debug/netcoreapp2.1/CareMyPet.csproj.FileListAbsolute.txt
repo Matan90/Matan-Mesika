@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.deps.json
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.json
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.runtimeconfig.dev.json
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.dll
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\bin\Debug\netcoreapp2.1\CareMyPet.pdb
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.AssemblyInfo.cs
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.dll
+C:\Users\USER\Desktop\CareMyPet\CareMyPet\obj\Debug\netcoreapp2.1\CareMyPet.pdb

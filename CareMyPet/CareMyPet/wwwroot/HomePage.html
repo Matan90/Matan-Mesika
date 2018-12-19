@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+
+    <!-- Added Libraries -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/MenuStyle.css" rel="stylesheet" />
+    <script src="JS/angular.min.js"></script>
+    <script src="JS/angular-route.min.js"></script>
+    <script src="JS/angular-animate.js"></script>
+    <title>Care My Pet</title>
+
+</head>
+<body>
+    <div ng-app="care_my_pet" ng-controller="care_my_pet_Ctrl">
+
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+        </nav>
+
+        <table class="" id="storesTable" ng-show="isInStores">
+            <thead>
+                <tr>
+                    <th class="text-left"></th>
+                    <th class="text-left">ID</th>
+                    <th class="text-left">שם</th>
+                    <th class="text-left">תיאור</th>
+                    <th class="text-left">שעות פעילות</th>
+                    <th class="text-left">מיקום</th>
+                    <th class="text-left">טלפון</th>
+                </tr>
+            </thead>
+            <tbody class="">
+                <tr ng-repeat="store in stores">
+                    <td class="text-left">{{$index}}</td>
+                    <td class="text-left">{{store.storeID}}</td>
+                    <td class="text-left">{{store.storeName}}</td>
+                    <td class="text-left">{{store.description}}</td>
+                    <td class="text-left">{{store.activityTime}}</td>
+                    <td class="text-left">{{store.location}}</td>
+                    <td class="text-left">{{store.phone}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script>
+        var care_my_pet = angular.module("care_my_pet", ['animate', 'route']);
+        care_my_pet.controller("care_my_pet_Ctrl", function ($scope, $http) {
+            $scope.getStores = function () {
+                $scope.inInStore = false;
+                $http.get("/api/Stores").then(function (response) {
+                    $scope.stores = response.data;
+                    if ($scope.isInStores == true)
+                        $scope.isInStores = false;
+                    else
+                        $scope.isInStores = true;
+                });
+            }
+
+
+        });
+    </script>
+</body>
+</html>
